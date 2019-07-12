@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChangeAppIconAndName</string>
+
+    <string name="app_default">ChangeAppIconAndName</string>
+    <string name="app_left">Turn Left</string>
+    <string name="app_right">Turn Right</string>
+
+
+    <string name="text_default">Default</string>
+    <string name="text_turn_left">Change icon to Turn Left</string>
+    <string name="text_turn_right">Change icon to Turn Right</string>
+</resources>

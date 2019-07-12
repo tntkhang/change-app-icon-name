@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.tntkhang">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.github.tntkhang.MainActivity" />
+
+        <activity-alias
+            android:name="DefaultActivity"
+            android:enabled="true"
+            android:icon="@drawable/ic_change"
+            android:label="@string/app_default"
+            android:targetActivity="com.github.tntkhang.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name="TurnLeftActivity"
+            android:enabled="false"
+            android:icon="@drawable/ic_turn_left"
+            android:label="@string/app_left"
+            android:targetActivity="com.github.tntkhang.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name="TurnRightActivity"
+            android:enabled="false"
+            android:icon="@drawable/ic_turn_right"
+            android:label="@string/app_right"
+            android:targetActivity="com.github.tntkhang.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+    </application>
+
+</manifest>
